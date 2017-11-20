@@ -1,0 +1,10 @@
+﻿@{
+    @model HomePageModel;
+    ViewData["Title"] = "Home Page";
+}
+
+
+@foreach (var item in Model.Games)
+{
+    <div>@item.Name</div>
+}

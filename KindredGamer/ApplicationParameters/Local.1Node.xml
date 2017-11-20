@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/KindredGamer" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="KindredGamer.Website_InstanceCount" Value="1" />
+    <Parameter Name="GameService_PartitionCount" Value="1" />
+    <Parameter Name="GameService_MinReplicaSetSize" Value="1" />
+    <Parameter Name="GameService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="SessionActorService_PartitionCount" Value="1" />
+    <Parameter Name="SessionActorService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="SessionActorService_MinReplicaSetSize" Value="1" />
+    <Parameter Name="UserActorService_PartitionCount" Value="1" />
+    <Parameter Name="UserActorService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="UserActorService_MinReplicaSetSize" Value="1" />
+  </Parameters>
+</Application>
